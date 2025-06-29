@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ROYALS - Visual Design Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+  <button id="menu-toggle" class="hamburger">&#9776;</button>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <h2>ROYALS</h2>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#posters" class="nav-link">Posters</a>
+        <a href="#thumbnails" class="nav-link">Thumbnails</a>
+        <a href="#branding" class="nav-link">Branding</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <button class="hire-btn" onclick="location.href='#contact'">Hire Me</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Crafting Visual Stories That Convert</h1>
+      <p class="hero-subtitle">Posters | Thumbnails | Branding: that speak louder than words.</p>
+      <div class="hero-buttons">
+        <a href="#posters" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-secondary">Let's Work Together</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Posters Section -->
+  <section id="posters" class="portfolio-section">
+    <div class="container">
+      <div class="section-header">
+        <h2><i class="fas fa-image"></i> Posters</h2>
+        <p>Posters that speak volumes in pixels.</p>
+      </div>
+      <div class="portfolio-grid" id="posters-grid"></div>
+    </div>
+  </section>
+
+  <!-- Thumbnails Section -->
+  <section id="thumbnails" class="portfolio-section">
+    <div class="container">
+      <div class="section-header">
+        <h2><i class="fas fa-play-circle"></i> YouTube Thumbnails</h2>
+        <p>Scroll-stopping designs that drive clicks.</p>
+      </div>
+      <div class="portfolio-grid" id="thumbnails-grid"></div>
+    </div>
+  </section>
+
+  <!-- Branding Section -->
+  <section id="branding" class="portfolio-section">
+    <div class="container">
+      <div class="section-header">
+        <h2><i class="fas fa-rocket"></i> Branding Projects</h2>
+        <p>Identity designs that leave an impact.</p>
+      </div>
+      <div class="portfolio-grid" id="branding-grid"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info">
+          <h2>Let's Talk</h2>
+          <p>Got a project in mind? Let's create something awesome.</p>
+        </div>
+        <div class="contact-form">
+          <h3>Let's Talk</h3>
+          <form id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Email" required />
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Send Message</button>
+            <p class="whatsapp-note">You’ll be redirected to WhatsApp to confirm and send your message.</p>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 ROYALS. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
