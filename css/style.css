@@ -1015,3 +1015,27 @@ body {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
+/* CSS */
+.fade-in {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.portfolio-item img {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.portfolio-item:hover img {
+  opacity: 0.5;
+  transform: scale(1.05);
+}
+body.dark-mode {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode .portfolio-item img {
+  opacity: 0.5;
+  transform: scale(1.05);
+}

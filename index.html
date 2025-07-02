@@ -3,12 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Creative portfolio of Koustav Dey | Posters, Thumbnails, Branding projects. Hire a Gen Z designer who delivers." />
+  <meta name="keywords" content="Graphic Design, Kolkata, Poster, Thumbnail, Branding, Freelance Designer" />
+  <meta name="author" content="Koustav Dey" />
+
   <title>ROYALS - Visual Design Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css">
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery.min.css" rel="stylesheet">
+  <!-- LightGallery CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css" />
+
+  <!-- LightGallery JS -->
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/fullscreen/lg-fullscreen.min.js"></script>
+
 </head>
 <body>
   <button id="menu-toggle" class="hamburger">&#9776;</button>
+  <button id="theme-toggle">🌓</button>
+
 
   <!-- Navigation -->
   <nav class="navbar">
@@ -39,36 +55,34 @@
     </div>
   </section>
 
-  <!-- Posters Section -->
+  <!-- Portfolio Sections with LightGallery -->
   <section id="posters" class="portfolio-section">
     <div class="container">
       <div class="section-header">
         <h2><i class="fas fa-image"></i> Posters</h2>
         <p>Posters that speak volumes in pixels.</p>
       </div>
-      <div class="portfolio-grid" id="posters-grid"></div>
+      <div class="portfolio-grid lightgallery" id="posters-grid"></div>
     </div>
   </section>
 
-  <!-- Thumbnails Section -->
   <section id="thumbnails" class="portfolio-section">
     <div class="container">
       <div class="section-header">
         <h2><i class="fas fa-play-circle"></i> YouTube Thumbnails</h2>
         <p>Scroll-stopping designs that drive clicks.</p>
       </div>
-      <div class="portfolio-grid" id="thumbnails-grid"></div>
+      <div class="portfolio-grid lightgallery" id="thumbnails-grid"></div>
     </div>
   </section>
 
-  <!-- Branding Section -->
   <section id="branding" class="portfolio-section">
     <div class="container">
       <div class="section-header">
         <h2><i class="fas fa-rocket"></i> Branding Projects</h2>
         <p>Identity designs that leave an impact.</p>
       </div>
-      <div class="portfolio-grid" id="branding-grid"></div>
+      <div class="portfolio-grid lightgallery" id="branding-grid"></div>
     </div>
   </section>
 
@@ -94,7 +108,6 @@
             </div>
             <button type="submit" class="btn-primary">Send Message</button>
             <p class="whatsapp-note">You’ll be redirected to WhatsApp to confirm and send your message.</p>
-
           </form>
         </div>
       </div>
@@ -108,6 +121,10 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script>
 </body>
 </html>
